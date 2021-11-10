@@ -3,29 +3,30 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p style="font-family:'Brush Script MT'; color:orange; font-size:80px;">Welcome to RETROrecords&nbsp;<img src="https://i1.wp.com/www.furnacemfg.com/wp-content/uploads/2018/12/black_vinyl.jpg?fit=2218%2C2216&ssl=1" alt="Vinyl" width="200" height="200"></p>
+    <p class="lead">"Music does a lot of things for a lot of people. It's transporting. It can take you right back, years back, to the very moment certain things happened in your life. It's uplifting, it's encouraging, it's strengthening."
+    <br> - Aretha Franklin<br /></p>
+    <p>@Html.ActionLink("Learn More About Us", "About", "Home", null, new { @class = "btn btn-primary btn-large" })</p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Artists</h2>
+        <h2>Shop By Artist</h2>
         <p>
             ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
             enables a clean separation of concerns and gives you full control over markup
             for enjoyable, agile development.
         </p>
-        <p>@Html.ActionLink("Check Artists", "Index", "Artist", null, new { @class = "btn btn-primary btn-large" })</p>
+        <p>@Html.ActionLink("Artists", "Index", "Artist", null, new { @class = "btn btn-primary btn-large" })</p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
+        <h2>Shop By Genre</h2>
         <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <p>@Html.ActionLink("Genres", "Index", "Genre", null, new { @class = "btn btn-primary btn-large" })</p>
     </div>
     <div class="col-md-4">
-        <h2>Vinyls</h2>
+        <h2>Shop All Vinyls</h2>
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p>@Html.ActionLink("Check ALL Vinyls", "Index", "Vinyl", null, new { @class = "btn btn-primary btn-large" })</p>
+        <p>@Html.ActionLink("Vinyls", "Index", "Vinyl", null, new { @class = "btn btn-primary btn-large" })</p>
     </div>
 </div>

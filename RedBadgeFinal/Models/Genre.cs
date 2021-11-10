@@ -11,6 +11,6 @@ namespace RedBadgeFinal.Models
         [Key]
         public int GenreId { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string Category { get; set; }
     }
 }

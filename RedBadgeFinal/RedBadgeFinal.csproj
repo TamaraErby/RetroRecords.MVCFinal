@@ -169,6 +169,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ArtistController.cs" />
+    <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\VinylController.cs" />
@@ -186,6 +187,14 @@
     <Compile Include="Migrations\202110282044595_New.cs" />
     <Compile Include="Migrations\202110282044595_New.Designer.cs">
       <DependentUpon>202110282044595_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111022309452_New .cs" />
+    <Compile Include="Migrations\202111022309452_New .Designer.cs">
+      <DependentUpon>202111022309452_New .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111022315048_Migration.cs" />
+    <Compile Include="Migrations\202111022315048_Migration.Designer.cs">
+      <DependentUpon>202111022315048_Migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -263,6 +272,11 @@
     <Content Include="Views\Vinyl\Delete.cshtml" />
     <Content Include="Views\Vinyl\Edit.cshtml" />
     <Content Include="Views\Vinyl\Details.cshtml" />
+    <Content Include="Views\Genre\Index.cshtml" />
+    <Content Include="Views\Genre\Create.cshtml" />
+    <Content Include="Views\Genre\Delete.cshtml" />
+    <Content Include="Views\Genre\Edit.cshtml" />
+    <Content Include="Views\Genre\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -289,6 +303,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110282044595_New.resx">
       <DependentUpon>202110282044595_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111022309452_New .resx">
+      <DependentUpon>202111022309452_New .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111022315048_Migration.resx">
+      <DependentUpon>202111022315048_Migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
