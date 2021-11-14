@@ -169,6 +169,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ArtistController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -196,9 +197,18 @@
     <Compile Include="Migrations\202111022315048_Migration.Designer.cs">
       <DependentUpon>202111022315048_Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111140044243_recent.cs" />
+    <Compile Include="Migrations\202111140044243_recent.Designer.cs">
+      <DependentUpon>202111140044243_recent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111140124278_update.cs" />
+    <Compile Include="Migrations\202111140124278_update.Designer.cs">
+      <DependentUpon>202111140124278_update.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Artist.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -278,6 +288,11 @@
     <Content Include="Views\Genre\Delete.cshtml" />
     <Content Include="Views\Genre\Edit.cshtml" />
     <Content Include="Views\Genre\Details.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Customer\Create.cshtml" />
+    <Content Include="Views\Customer\Delete.cshtml" />
+    <Content Include="Views\Customer\Edit.cshtml" />
+    <Content Include="Views\Customer\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -310,6 +325,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111022315048_Migration.resx">
       <DependentUpon>202111022315048_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111140044243_recent.resx">
+      <DependentUpon>202111140044243_recent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111140124278_update.resx">
+      <DependentUpon>202111140124278_update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

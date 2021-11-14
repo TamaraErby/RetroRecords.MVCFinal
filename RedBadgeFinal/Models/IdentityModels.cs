@@ -33,5 +33,7 @@ namespace RedBadgeFinal.Models
         public DbSet<RedBadgeFinal.Models.Artist> Artists { get; set; }
         public DbSet<RedBadgeFinal.Models.Vinyl> Vinyls { get; set; }
         public DbSet<RedBadgeFinal.Models.Genre> Genres { get; set; }
+
+        public DbSet<RedBadgeFinal.Models.Customer> Customers { get; set; }
     }
 }
