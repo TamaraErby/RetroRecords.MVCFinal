@@ -1,7 +1,6 @@
 # RetroRecords.MVCFinal
-About
- For this project, I built a simple Music Store with .NET Framework MVC 5 Web using n-tier architecture. C# was the main language used to create the models, logic, and API.
-Database Entity Detail
+For this project, I built a simple Music Store with .NET Framework MVC 5 Web using n-tier architecture. C# was the main language used to create the models, logic, and API.
+
   1. Artist
       Description: Customers can browse vinyls by Artist
       ArtistId (Primary Key): Uniquely identifies each Artist with an integer
